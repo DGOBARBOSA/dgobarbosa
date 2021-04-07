@@ -1,0 +1,219 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  
+}
+/*Remove a cor padrão de todos links da pagina*/
+a:visited {
+    color: black;
+}
+
+body{
+  background: url(images/background.jpg) no-repeat fixed center;
+  background-size: cover;
+  background-color: black;
+
+}
+
+body {  
+  color: rgb(216, 215, 215);
+  box-sizing: border-box;
+}
+
+/* ajustando as sections */
+
+.sections{
+  width:65%;
+  margin: auto;
+  padding: 10px;
+}
+
+.sections h1{
+  font-size: 40px;
+  padding: 20px 20px;
+  margin: 30px;
+  text-align: center;
+}
+
+#projgithub {
+  display: none;
+
+}
+
+.sections h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 32px;
+  padding-top: 2px;
+  
+}
+
+.sections h2:hover{
+  color: lightseagreen;
+}
+
+.sections p {
+  font-size: 18px;
+}
+
+.sections h3 {
+  font-size: 20px;
+}
+
+#projetos h3{
+  color: antiquewhite;
+  
+}
+
+#projetos h3:hover{  
+  color: lightseagreen;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: lightyellow;
+  border: none;
+  border-radius: 8px;  
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+}
+
+button:hover{
+  color: #20b2aa;
+}
+button:active{
+  transform: translateY(2px);
+}
+
+#projgithub{
+  display: none;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 300px;
+  border: 2px solid;
+  margin: 10px;
+}
+
+/* Repos List */
+.listRepos{
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid;
+  background-image: url(images/bg.png);
+  padding: 40px;
+  
+
+}
+
+/*Repositorio - Repo*/
+.repo {
+  background-color: lightslategrey;
+  width: 300px;
+  height: 100px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.repo div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} 
+
+
+/* Ferramentas */
+#ferramentas div {
+  display: flex;
+  justify-content: center;
+}
+
+#ferramentas img {
+  width: 120px;
+  height: 100px;
+  margin: 10px;
+}
+
+#ferramentas img:hover {
+  box-shadow: 0 3px 40px 10px #20b2aa;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  color: black;
+  background-color: dimgray;
+  padding: 10px 10px;
+  box-sizing: border-box; 
+  display: flex;
+  text-align: center; 
+   /*
+ 
+  justify-content: center;
+   */
+}
+.footer_links{
+width: 50%;
+}
+
+.footer_links nav a{
+  padding: 10px 10px;
+}
+.footer_links nav a:hover{
+  color:#1cf1e7;
+  padding: 20px 20px;
+}
+
+.assinatura{
+  width: fit-content;
+  padding-bottom: 5px;
+  width: 20%;
+ 
+}
+
+.assinatura a:hover{  
+  color:#1cf1e7;
+  padding: 15px 15px;
+  }
+
+/*
+
+  padding: 24px;
+  
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+ 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+*/
